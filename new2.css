@@ -1,0 +1,113 @@
+/* Reset styles and other shared styles here */
+body {
+    background-color: black;
+    margin: 0;
+}
+
+/* Form styles */
+.container {
+	margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	width: 50%;
+    height: 100vh;
+}
+
+.signup-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.signup-heading .team {
+    color: #fff; /* White color */
+}
+
+.signup-heading .grandline {
+    color: #ff004f; /* Red color */
+}
+
+.sub-title {
+    font-size: 24px;
+    color: #ababab;
+    margin-bottom: 20px;
+}
+.sub-title .an,
+.sub-title .create {
+    color: #ff004f; /* Red color */
+}
+
+
+.sub-title .account {
+    color: #fff; /* White color */
+}
+
+#signup-form {
+    padding: 30px;
+    color: #ababab;
+    border-radius: 20px;
+    background: #262626;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#signup-form input {
+    width: 60%;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    background: #2d2d2d;
+    padding: 12px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s;
+}
+
+#signup-form input:hover {
+    background: #ff004f;
+}
+
+#signup-form input::placeholder {
+    color: #fff;
+}
+
+#signup-form button {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    padding: 14px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background: #ff004f;
+    color: #fff;
+    border-radius: 8px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+#signup-form button:hover {
+    background: #d60042;
+    transform: scale(1.05);
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    /* Adjustments for smaller screens */
+    .container {
+        height: auto;
+    }
+
+    #signup-form {
+        border-radius: 0;
+    }
+
+    #signup-form input,
+    #signup-form button {
+        padding: 12px;
+        font-size: 16px;
+    }
+}*/
